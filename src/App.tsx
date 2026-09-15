@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { Send, Image as ImageIcon, Loader2, Trash2, Plus, UserCircle2, Cpu, Camera, Edit2, Landmark, Sparkles, Server, Settings, Settings2, RotateCcw, Copy, Check, RefreshCw, Heart, HeartHandshake, MapPin, Eye, Calendar, FileText, Bookmark, AlertCircle, X, Download, Upload, MessageSquare, ChevronLeft, ChevronRight, ChevronDown, BookOpen, Compass, Activity, PlusCircle, FileDown, Monitor, Archive, Maximize2 } from "lucide-react";
+import { Send, Image as ImageIcon, Loader2, Trash2, Plus, UserCircle2, Cpu, Camera, Edit2, Landmark, Sparkles, Server, Settings, Settings2, RotateCcw, Copy, Check, RefreshCw, Heart, HeartHandshake, MapPin, Eye, Calendar, FileText, Bookmark, AlertCircle, X, Download, Upload, MessageSquare, ChevronLeft, ChevronRight, ChevronDown, BookOpen, Compass, Activity, PlusCircle, FileDown, Monitor, Archive, Maximize2, HelpCircle } from "lucide-react";
 import { Content, Personality, UserPersona, Scenario, Event, CharacterQuest, UserGameState, ThemeSettings } from "./types";
 import { resolveRoleplayVariables } from "./roleplayTemplate";
 import { exportChatToPdf } from "./utils/pdfExport";
@@ -27,6 +27,7 @@ import {
 import { EventManagerModal, getTypeBadgeClass } from "./components/EventManagerModal";
 import { EventSelectorPopover } from "./components/EventSelectorPopover";
 import { QuestManagerModal } from "./components/QuestManagerModal";
+import { HowToUseModal } from "./components/HowToUseModal";
 import {
   loadSavedQuests,
   saveSavedQuests,
@@ -65,6 +66,7 @@ export default function App() {
   const [isScenarioManagerOpen, setIsScenarioManagerOpen] = useState(false);
   const [loreBooks, setLoreBooks] = useState<any[]>([]);
   const [isLoreBookManagerOpen, setIsLoreBookManagerOpen] = useState(false);
+  const [showHowToUse, setShowHowToUse] = useState(false);
 
   // High-Resolution Avatar Lightbox State
   const [activeLightboxImage, setActiveLightboxImage] = useState<{
@@ -1726,6 +1728,15 @@ You must ALWAYS stay in character. Never break the fourth wall.
         </div>
 
         <div className="flex items-center gap-2 sm:gap-2.5">
+          <button
+            onClick={() => setShowHowToUse(true)}
+            className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-[#141418] hover:bg-[#1A1A22] border border-[#2A2A32] hover:border-amber-500/40 cursor-pointer transition-all text-xs font-semibold text-gray-300 hover:text-amber-300"
+            title="How to Use SparkleCore"
+          >
+            <HelpCircle size={14} className="text-amber-400" />
+            <span className="hidden sm:inline">Guide</span>
+          </button>
+
           {/* Model Status Indicator */}
           <div
             onClick={checkServerConnection}
@@ -3642,6 +3653,11 @@ You must ALWAYS stay in character. Never break the fourth wall.
         imageUrl={activeLightboxImage?.url || null}
         title={activeLightboxImage?.title}
         subtitle={activeLightboxImage?.subtitle}
+      />
+      
+      <HowToUseModal 
+        isOpen={showHowToUse} 
+        onClose={() => setShowHowToUse(false)} 
       />
     </div>
   );
