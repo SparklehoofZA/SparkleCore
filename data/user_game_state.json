@@ -1,0 +1,65 @@
+{
+  "inventory": [
+    {
+      "id": "item_1788570547491_2ktk",
+      "item_name": "House-Made Gingerbread Cookie",
+      "item_description": "A perfectly spiced cookie shaped like a coffee bean.",
+      "acquiredAt": "2026-09-05T01:09:07.491Z",
+      "questTitle": "Sweeten the Mood",
+      "characterName": "Lilly",
+      "characterId": "d2e4bf08-1f07-400e-85d9-11c6ff21d0ab"
+    },
+    {
+      "id": "item_1788569471530_9gmb",
+      "item_name": "Hand-Drawn Map",
+      "item_description": "A rough but charming map of local points of interest sketched on a napkin.",
+      "acquiredAt": "2026-09-05T00:51:11.530Z",
+      "questTitle": "The Hidden Gem Inquiry",
+      "characterName": "Lilly",
+      "characterId": "d2e4bf08-1f07-400e-85d9-11c6ff21d0ab"
+    },
+    {
+      "id": "item_1788566721657_bj7e",
+      "item_name": "Bag of Whoopee Cushions",
+      "item_description": "A set of classic, highly amusing prank devices.",
+      "acquiredAt": "2026-09-05T00:05:21.657Z",
+      "questTitle": "A Little Mischief",
+      "characterName": "Lilly",
+      "characterId": "d2e4bf08-1f07-400e-85d9-11c6ff21d0ab"
+    },
+    {
+      "id": "item_1788566706633_qy6j",
+      "item_name": "Ancient Map Fragment",
+      "item_description": "A faded, mysterious parchment detailing local landmarks.",
+      "acquiredAt": "2026-09-05T00:05:06.633Z",
+      "questTitle": "Lost History Hunt",
+      "characterName": "Lilly",
+      "characterId": "d2e4bf08-1f07-400e-85d9-11c6ff21d0ab"
+    },
+    {
+      "id": "item_1788565686609_uidf",
+      "item_name": "Gilded Scouting Compass",
+      "item_description": "An ornate pocket compass with an amber needle that never loses true orientation.",
+      "acquiredAt": "2026-09-04T23:48:06.609Z",
+      "questTitle": "Investigate the Disturbance",
+      "characterName": "Aria Vance",
+      "characterId": "aria_vance"
+    },
+    {
+      "id": "item_1788565045692_f35i",
+      "item_name": "Token of Aria Vance's Gratitude",
+      "item_description": "A warm token carried as a reminder of mutual support during troubled moments.",
+      "acquiredAt": "2026-09-04T23:37:25.692Z",
+      "questTitle": "Calming the Scene with Aria Vance",
+      "characterName": "Aria Vance",
+      "characterId": "aria_vance"
+    },
+    {
+      "id": "inv_starter_satchel",
+      "item_name": "Adventurer's Leather Satchel",
+      "item_description": "A well-stitched traveler's pouch with reinforced buckles for keeping keepsakes safe.",
+      "acquiredAt": "2026-09-04T23:37:25.692Z",
+      "characterName": "System"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+--- server.ts
++++ server.ts
+@@ -2480,6 +2480,21 @@
+   res.json({ success: true });
+ });
+ 
++app.get("/api/questing-system/config", async (req, res) => {
++  const config = await loadQuestingSystemConfig();
++  res.json(config);
++});
++
++app.post("/api/questing-system/config", async (req, res) => {
++  try {
++    const config: QuestingSystemConfig = { ...DEFAULT_QUESTING_SYSTEM_CONFIG, ...req.body };
++    await saveQuestingSystemConfig(config);
++    res.json({ success: true, config });
++  } catch (error) {
++    res.status(500).json({ error: "Failed to save questing system config" });
++  }
++});
++
+ // ==========================================
+ // 📌 INVENTORY & ECONOMY ENDPOINTS
+ // ==========================================

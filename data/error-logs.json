@@ -1,0 +1,351 @@
+[
+  {
+    "id": "err_1788970349479_8jam0",
+    "timestamp": "2026-09-09T16:12:29.479Z",
+    "source": "server",
+    "title": "Universal Provider Inference Error",
+    "message": "OpenRouter API key is missing. Please enter your OpenRouter API Key in Neural Model & Server Settings.",
+    "model": "openrouter:openai/gpt-6-astra:batch",
+    "personalityName": "Lilly"
+  },
+  {
+    "id": "err_1788970343514_9hjhu",
+    "timestamp": "2026-09-09T16:12:23.514Z",
+    "source": "server",
+    "title": "Universal Provider Inference Error",
+    "message": "OpenRouter API key is missing. Please enter your OpenRouter API Key in Neural Model & Server Settings.",
+    "model": "openrouter:openai/gpt-6-astra:batch"
+  },
+  {
+    "id": "err_1788958547300_oq5pf",
+    "timestamp": "2026-09-09T12:55:47.300Z",
+    "source": "server",
+    "title": "Universal Provider Inference Error",
+    "message": "OpenRouter API key is missing. Please enter your OpenRouter API Key in Neural Model & Server Settings.",
+    "model": "openrouter:openai/gpt-6-astra:batch",
+    "personalityName": "Ajani"
+  },
+  {
+    "id": "err_1788958542415_fidg3",
+    "timestamp": "2026-09-09T12:55:42.415Z",
+    "source": "server",
+    "title": "Universal Provider Inference Error",
+    "message": "OpenRouter API key is missing. Please enter your OpenRouter API Key in Neural Model & Server Settings.",
+    "model": "openrouter:openai/gpt-6-astra:batch"
+  },
+  {
+    "id": "err_1788957912658_kuxro",
+    "timestamp": "2026-09-09T12:45:12.658Z",
+    "source": "server",
+    "title": "Universal Provider Inference Error",
+    "message": "OpenRouter API key is missing. Please enter your OpenRouter API Key in Neural Model & Server Settings.",
+    "model": "openrouter:openai/gpt-6-astra:batch",
+    "personalityName": "Ajani"
+  },
+  {
+    "id": "err_1788957907881_gq2mo",
+    "timestamp": "2026-09-09T12:45:07.881Z",
+    "source": "server",
+    "title": "Universal Provider Inference Error",
+    "message": "OpenRouter API key is missing. Please enter your OpenRouter API Key in Neural Model & Server Settings.",
+    "model": "openrouter:openai/gpt-6-astra:batch"
+  },
+  {
+    "id": "err_1788957403414_rkhzx",
+    "timestamp": "2026-09-09T12:36:43.414Z",
+    "source": "server",
+    "title": "Gemini Inference Error (gemini-3.8-flash)",
+    "message": "{\"error\":{\"code\":429,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\"status\":\"RESOURCE_EXHAUSTED\"}}",
+    "model": "gemini-3.8-flash",
+    "status": 429,
+    "personalityName": "Ajani"
+  },
+  {
+    "id": "err_1788957401645_lnk01",
+    "timestamp": "2026-09-09T12:36:41.645Z",
+    "source": "server",
+    "title": "Universal Provider Inference Error",
+    "message": "OpenRouter API key is missing. Please enter your OpenRouter API Key in Neural Model & Server Settings.",
+    "model": "openrouter:openai/gpt-6-astra:batch",
+    "personalityName": "Ajani"
+  },
+  {
+    "id": "err_1788957398690_kzgqk",
+    "timestamp": "2026-09-09T12:36:38.690Z",
+    "source": "server",
+    "title": "Gemini Inference Error (gemini-3.8-flash)",
+    "message": "{\"error\":{\"code\":429,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\"status\":\"RESOURCE_EXHAUSTED\"}}",
+    "model": "gemini-3.8-flash",
+    "status": 429
+  },
+  {
+    "id": "err_1788957396902_pr4qj",
+    "timestamp": "2026-09-09T12:36:36.902Z",
+    "source": "server",
+    "title": "Universal Provider Inference Error",
+    "message": "OpenRouter API key is missing. Please enter your OpenRouter API Key in Neural Model & Server Settings.",
+    "model": "openrouter:openai/gpt-6-astra:batch"
+  },
+  {
+    "id": "err_1788957390661_c00tg",
+    "timestamp": "2026-09-09T12:36:30.661Z",
+    "source": "server",
+    "title": "Local Server Test Failed (OpenRouter (Multi-Model Gateway))",
+    "message": "OpenRouter API Key is missing. Please enter your OpenRouter API Key in server settings to discover and use OpenRouter models.",
+    "details": "Server URL: https://openrouter.ai/api/v1\nServer Type: openrouter",
+    "endpoint": "/api/local-servers/test",
+    "status": 503
+  },
+  {
+    "id": "err_1788957354391_hzul9",
+    "timestamp": "2026-09-09T12:35:54.391Z",
+    "source": "server",
+    "title": "Local Server Test Failed (OpenRouter (Multi-Model Gateway))",
+    "message": "OpenRouter API Key is missing. Please enter your OpenRouter API Key in server settings to discover and use OpenRouter models.",
+    "details": "Server URL: https://openrouter.ai/api/v1\nServer Type: openrouter",
+    "endpoint": "/api/local-servers/test",
+    "status": 503
+  },
+  {
+    "id": "err_1788957348601_z0ykc",
+    "timestamp": "2026-09-09T12:35:48.601Z",
+    "source": "server",
+    "title": "Local Server Test Failed (OpenRouter (Multi-Model Gateway))",
+    "message": "OpenRouter API Key is missing. Please enter your OpenRouter API Key in server settings to discover and use OpenRouter models.",
+    "details": "Server URL: https://openrouter.ai/api/v1\nServer Type: openrouter",
+    "endpoint": "/api/local-servers/test",
+    "status": 503
+  },
+  {
+    "id": "err_1788957325285_zokfa",
+    "timestamp": "2026-09-09T12:35:25.285Z",
+    "source": "server",
+    "title": "Gemini Inference Error (gemini-3.1-pro-preview)",
+    "message": "{\"error\":{\"code\":429,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\"status\":\"RESOURCE_EXHAUSTED\"}}",
+    "model": "gemini-3.1-pro-preview",
+    "status": 429,
+    "personalityName": "Ajani"
+  },
+  {
+    "id": "err_1788957320623_s6f11",
+    "timestamp": "2026-09-09T12:35:20.623Z",
+    "source": "server",
+    "title": "Gemini Inference Error (gemini-3.1-pro-preview)",
+    "message": "{\"error\":{\"code\":429,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\"status\":\"RESOURCE_EXHAUSTED\"}}",
+    "model": "gemini-3.1-pro-preview",
+    "status": 429
+  },
+  {
+    "id": "err_1788957297381_81myg",
+    "timestamp": "2026-09-09T12:34:57.381Z",
+    "source": "server",
+    "title": "Gemini Inference Error (gemini-3.8-flash)",
+    "message": "{\"error\":{\"code\":429,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\"status\":\"RESOURCE_EXHAUSTED\"}}",
+    "model": "gemini-3.8-flash",
+    "status": 429,
+    "personalityName": "Ajani"
+  },
+  {
+    "id": "err_1788957290895_p1k9k",
+    "timestamp": "2026-09-09T12:34:50.895Z",
+    "source": "server",
+    "title": "Gemini Inference Error (gemini-3.8-flash)",
+    "message": "{\"error\":{\"code\":429,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\"status\":\"RESOURCE_EXHAUSTED\"}}",
+    "model": "gemini-3.8-flash",
+    "status": 429
+  },
+  {
+    "id": "err_1788956159619_y8sro",
+    "timestamp": "2026-09-09T12:15:59.619Z",
+    "source": "server",
+    "title": "Gemini Inference Error (gemini-3.8-flash)",
+    "message": "{\"error\":{\"code\":429,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\"status\":\"RESOURCE_EXHAUSTED\"}}",
+    "model": "gemini-3.8-flash",
+    "status": 429,
+    "personalityName": "Ajani"
+  },
+  {
+    "id": "err_1788956155203_8i37o",
+    "timestamp": "2026-09-09T12:15:55.203Z",
+    "source": "server",
+    "title": "Gemini Inference Error (gemini-3.8-flash)",
+    "message": "{\"error\":{\"code\":429,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\"status\":\"RESOURCE_EXHAUSTED\"}}",
+    "model": "gemini-3.8-flash",
+    "status": 429
+  },
+  {
+    "id": "err_1788956135404_itkzb",
+    "timestamp": "2026-09-09T12:15:35.404Z",
+    "source": "server",
+    "title": "Gemini Inference Error (gemini-3.8-flash)",
+    "message": "{\"error\":{\"code\":429,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\"status\":\"RESOURCE_EXHAUSTED\"}}",
+    "model": "gemini-3.8-flash",
+    "status": 429,
+    "personalityName": "Ajani"
+  },
+  {
+    "id": "err_1788956130007_wczje",
+    "timestamp": "2026-09-09T12:15:30.007Z",
+    "source": "server",
+    "title": "Gemini Inference Error (gemini-3.8-flash)",
+    "message": "{\"error\":{\"code\":429,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\"status\":\"RESOURCE_EXHAUSTED\"}}",
+    "model": "gemini-3.8-flash",
+    "status": 429
+  },
+  {
+    "id": "err_1788956110138_8r6e5",
+    "timestamp": "2026-09-09T12:15:10.138Z",
+    "source": "chat",
+    "title": "Chat Generation Failure (openrouter:inclusionai/ling-3.0-flash-fin:free)",
+    "message": "{\"error\":{\"code\":429,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\"status\":\"RESOURCE_EXHAUSTED\"}}",
+    "details": "ApiError: {\"error\":{\"code\":429,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\"status\":\"RESOURCE_EXHAUSTED\"}}\n    at throwErrorIfNotOK (/app/applet/node_modules/@google/genai/src/_api_client.ts:1091:24)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async <anonymous> (/app/applet/node_modules/@google/genai/src/_api_client.ts:643:9)\n    at async Models.Models.generateContent (/app/applet/node_modules/@google/genai/src/models.ts:132:14)\n    at async callGeminiContentWithRetry (/app/applet/server.ts:3048:26)\n    at async executeChatRound (/app/applet/server.ts:3290:22)\n    at async <anonymous> (/app/applet/server.ts:3628:16)",
+    "model": "openrouter:inclusionai/ling-3.0-flash-fin:free",
+    "endpoint": "/api/chat",
+    "status": 429,
+    "personalityName": "63326618-0668-4d12-807b-e3b71df765f2"
+  },
+  {
+    "id": "err_1788956105917_ntqbs",
+    "timestamp": "2026-09-09T12:15:05.917Z",
+    "source": "chat",
+    "title": "Auto-Recovery: openrouter:inclusionai/ling-3.0-flash-fin:free Unavailable",
+    "message": "OpenRouter API key is missing. Please enter your OpenRouter API Key in Neural Model & Server Settings.. Automatically switched to fallback model gemini-3.8-flash.",
+    "model": "openrouter:inclusionai/ling-3.0-flash-fin:free",
+    "endpoint": "/api/chat",
+    "status": 200,
+    "personalityName": "63326618-0668-4d12-807b-e3b71df765f2"
+  },
+  {
+    "id": "err_1788956105905_q7q7c",
+    "timestamp": "2026-09-09T12:15:05.905Z",
+    "source": "server",
+    "title": "Gemini Inference Error (gemini-3.8-flash)",
+    "message": "{\"error\":{\"code\":429,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\"status\":\"RESOURCE_EXHAUSTED\"}}",
+    "model": "gemini-3.8-flash",
+    "status": 429
+  },
+  {
+    "id": "err_1788956007690_1hop8",
+    "timestamp": "2026-09-09T12:13:27.690Z",
+    "source": "chat",
+    "title": "Chat Generation Failure (openrouter:inclusionai/ling-3.0-flash-fin:free)",
+    "message": "{\"error\":{\"code\":429,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\"status\":\"RESOURCE_EXHAUSTED\"}}",
+    "details": "ApiError: {\"error\":{\"code\":429,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\"status\":\"RESOURCE_EXHAUSTED\"}}\n    at throwErrorIfNotOK (/app/applet/node_modules/@google/genai/src/_api_client.ts:1091:24)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async <anonymous> (/app/applet/node_modules/@google/genai/src/_api_client.ts:643:9)\n    at async Models.Models.generateContent (/app/applet/node_modules/@google/genai/src/models.ts:132:14)\n    at async callGeminiContentWithRetry (/app/applet/server.ts:3048:26)\n    at async executeChatRound (/app/applet/server.ts:3290:22)\n    at async <anonymous> (/app/applet/server.ts:3628:16)",
+    "model": "openrouter:inclusionai/ling-3.0-flash-fin:free",
+    "endpoint": "/api/chat",
+    "status": 429,
+    "personalityName": "63326618-0668-4d12-807b-e3b71df765f2"
+  },
+  {
+    "id": "err_1788956003256_8q4u2",
+    "timestamp": "2026-09-09T12:13:23.256Z",
+    "source": "chat",
+    "title": "Auto-Recovery: openrouter:inclusionai/ling-3.0-flash-fin:free Unavailable",
+    "message": "OpenRouter API key is missing. Please enter your OpenRouter API Key in Neural Model & Server Settings.. Automatically switched to fallback model gemini-3.8-flash.",
+    "model": "openrouter:inclusionai/ling-3.0-flash-fin:free",
+    "endpoint": "/api/chat",
+    "status": 200,
+    "personalityName": "63326618-0668-4d12-807b-e3b71df765f2"
+  },
+  {
+    "id": "err_1788955987622_nrrwe",
+    "timestamp": "2026-09-09T12:13:07.622Z",
+    "source": "chat",
+    "title": "Chat Generation Failure (openrouter:inclusionai/ling-3.0-flash-fin:free)",
+    "message": "{\"error\":{\"code\":429,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\"status\":\"RESOURCE_EXHAUSTED\"}}",
+    "details": "ApiError: {\"error\":{\"code\":429,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\"status\":\"RESOURCE_EXHAUSTED\"}}\n    at throwErrorIfNotOK (/app/applet/node_modules/@google/genai/src/_api_client.ts:1091:24)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async <anonymous> (/app/applet/node_modules/@google/genai/src/_api_client.ts:643:9)\n    at async Models.Models.generateContent (/app/applet/node_modules/@google/genai/src/models.ts:132:14)\n    at async callGeminiContentWithRetry (/app/applet/server.ts:3048:26)\n    at async executeChatRound (/app/applet/server.ts:3290:22)\n    at async <anonymous> (/app/applet/server.ts:3628:16)",
+    "model": "openrouter:inclusionai/ling-3.0-flash-fin:free",
+    "endpoint": "/api/chat",
+    "status": 429,
+    "personalityName": "default"
+  },
+  {
+    "id": "err_1788955983180_ek646",
+    "timestamp": "2026-09-09T12:13:03.180Z",
+    "source": "chat",
+    "title": "Auto-Recovery: openrouter:inclusionai/ling-3.0-flash-fin:free Unavailable",
+    "message": "OpenRouter API key is missing. Please enter your OpenRouter API Key in Neural Model & Server Settings.. Automatically switched to fallback model gemini-3.8-flash.",
+    "model": "openrouter:inclusionai/ling-3.0-flash-fin:free",
+    "endpoint": "/api/chat",
+    "status": 200,
+    "personalityName": "default"
+  },
+  {
+    "id": "err_1788939610195_bslfq",
+    "timestamp": "2026-09-09T07:40:10.196Z",
+    "source": "server",
+    "title": "Gemini Inference Error (gemini-3.8-flash)",
+    "message": "{\"error\":{\"code\":429,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\"status\":\"RESOURCE_EXHAUSTED\"}}",
+    "model": "gemini-3.8-flash",
+    "status": 429
+  },
+  {
+    "id": "err_1788939608238_vja4l",
+    "timestamp": "2026-09-09T07:40:08.238Z",
+    "source": "server",
+    "title": "Universal Provider Inference Error",
+    "message": "OpenRouter API key is missing. Please enter your OpenRouter API Key in Neural Model & Server Settings.",
+    "model": "openrouter:inclusionai/ling-3.0-flash-fin:free"
+  },
+  {
+    "id": "err_1788931951452_c1i9v",
+    "timestamp": "2026-09-09T05:32:31.452Z",
+    "source": "server",
+    "title": "Local Server Test Failed (Ollama)",
+    "message": "Ollama server at https://expanding-presents-ministry-willow.trycloudflare.com is unreachable or returned status connection failed",
+    "details": "Server URL: https://expanding-presents-ministry-willow.trycloudflare.com\nServer Type: ollama",
+    "endpoint": "/api/local-servers/test",
+    "status": 503
+  },
+  {
+    "id": "err_1788931950644_65sut",
+    "timestamp": "2026-09-09T05:32:30.644Z",
+    "source": "server",
+    "title": "Local Server Test Failed (Ollama)",
+    "message": "Ollama server at https://expanding-presents-ministry-willow.trycloudflare.com is unreachable or returned status connection failed",
+    "details": "Server URL: https://expanding-presents-ministry-willow.trycloudflare.com\nServer Type: ollama",
+    "endpoint": "/api/local-servers/test",
+    "status": 503
+  },
+  {
+    "id": "err_1788931948699_hs8h7",
+    "timestamp": "2026-09-09T05:32:28.699Z",
+    "source": "server",
+    "title": "Local Server Test Failed (Ollama)",
+    "message": "Ollama server at https://expanding-presents-ministry-willow.trycloudflare.com is unreachable or returned status connection failed",
+    "details": "Server URL: https://expanding-presents-ministry-willow.trycloudflare.com\nServer Type: ollama",
+    "endpoint": "/api/local-servers/test",
+    "status": 503
+  },
+  {
+    "id": "err_1788931928089_9k2b7",
+    "timestamp": "2026-09-09T05:32:08.089Z",
+    "source": "server",
+    "title": "Local Server Test Failed (Ollama)",
+    "message": "Ollama server at https://expanding-presents-ministry-willow.trycloudflare.com is unreachable or returned status connection failed",
+    "details": "Server URL:  https://expanding-presents-ministry-willow.trycloudflare.com\nServer Type: ollama",
+    "endpoint": "/api/local-servers/test",
+    "status": 503
+  },
+  {
+    "id": "err_1788931926348_yy328",
+    "timestamp": "2026-09-09T05:32:06.348Z",
+    "source": "server",
+    "title": "Local Server Test Failed (Ollama)",
+    "message": "Ollama server at https://expanding-presents-ministry-willow.trycloudflare.com is unreachable or returned status connection failed",
+    "details": "Server URL:  https://expanding-presents-ministry-willow.trycloudflare.com\nServer Type: ollama",
+    "endpoint": "/api/local-servers/test",
+    "status": 503
+  },
+  {
+    "id": "err_1788596176517_pnmw6",
+    "timestamp": "2026-09-05T08:16:16.517Z",
+    "source": "server",
+    "title": "Model Test Failed: gemini-3.8-flash",
+    "message": "{\"error\":{\"code\":429,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\"status\":\"RESOURCE_EXHAUSTED\"}}",
+    "model": "gemini-3.8-flash",
+    "details": "ApiError: {\"error\":{\"code\":429,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\"status\":\"RESOURCE_EXHAUSTED\"}}\n    at throwErrorIfNotOK (/app/applet/node_modules/@google/genai/src/_api_client.ts:1091:24)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async <anonymous> (/app/applet/node_modules/@google/genai/src/_api_client.ts:643:9)\n    at async Models.Models.generateContent (/app/applet/node_modules/@google/genai/src/models.ts:132:14)\n    at async executeTestChatModel (/app/applet/src/systemStatusEngine.ts:562:24)\n    at async <anonymous> (/app/applet/server.ts:2038:20)",
+    "endpoint": "/api/systems/test-model",
+    "status": 500
+  }
+]

@@ -1,0 +1,62 @@
+--- src/App.tsx
++++ src/App.tsx
+@@ -2548,27 +2548,26 @@
+             
+             {/* Main Chat Area */}
+             <main
+-              ref={chatScrollRef}
+-              onScroll={handleChatScroll}
+-              className="flex-1 overflow-y-auto overscroll-contain relative"
+-              style={{
+-                backgroundColor: themeSettings?.chatBackgroundType === 'solid' ? themeSettings?.chatBackgroundColor : undefined,
+-                backgroundImage: selectedPersonality?.customBackgroundUrl 
+-                  ? `url(${selectedPersonality.customBackgroundUrl})`
+-                  : themeSettings?.chatBackgroundType === 'gradient' 
+-                    ? themeSettings?.chatBackgroundGradient 
+-                    : themeSettings?.chatBackgroundType === 'image' && themeSettings?.chatBackgroundImageUrl 
+-                      ? `url(${themeSettings.chatBackgroundImageUrl})` 
+-                      : undefined,
+-                backgroundSize: 'cover',
+-                backgroundPosition: 'center',
+-                backgroundAttachment: 'fixed',
+-              }}
++              className="flex-1 relative overflow-hidden flex flex-col"
+             >
++              {/* Background Layer */}
++              <div 
++                className="absolute inset-0 z-0 pointer-events-none"
++                style={{
++                  backgroundColor: themeSettings?.chatBackgroundType === 'solid' ? themeSettings?.chatBackgroundColor : undefined,
++                  backgroundImage: selectedPersonality?.customBackgroundUrl 
++                    ? `url(${selectedPersonality.customBackgroundUrl})`
++                    : themeSettings?.chatBackgroundType === 'gradient' 
++                      ? themeSettings?.chatBackgroundGradient 
++                      : themeSettings?.chatBackgroundType === 'image' && themeSettings?.chatBackgroundImageUrl 
++                        ? `url(${themeSettings.chatBackgroundImageUrl})` 
++                        : undefined,
++                  backgroundSize: 'cover',
++                  backgroundPosition: 'center',
++                }}
++              />
++
+               {(selectedPersonality?.customBackgroundUrl || themeSettings?.chatBackgroundType === 'image') && (
+                 <div 
+                   className="absolute inset-0 z-0 pointer-events-none" 
+                   style={{ 
+@@ -2577,3 +2576,9 @@
+               )}
+-              <div className="px-4 sm:px-6 pt-4 pb-2 flex flex-col gap-5 w-full relative z-10">
++              
++              {/* Scrollable Content */}
++              <div 
++                ref={chatScrollRef}
++                onScroll={handleChatScroll}
++                className="flex-1 overflow-y-auto overscroll-contain relative z-10 w-full"
++              >
++                <div className="px-4 sm:px-6 pt-4 pb-2 flex flex-col gap-5 w-full">
+ 
+@@ -2987,3 +2992,4 @@
+                 </div>
++              </div>
+             </main>
+           </div>

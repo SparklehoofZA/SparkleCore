@@ -1,0 +1,8 @@
+{
+  "defaultModel": "ollama:Yarflam/SmolLM3-Q4KM:latest",
+  "characterStateModel": "openrouter:openai/gpt-6-astra:batch",
+  "questEngineModel": "ollama:deepseek-r1:8b",
+  "fallbackModel": "none",
+  "mempalaceModel": "ollama:Yarflam/SmolLM3-Q4KM:latest",
+  "updatedAt": "2026-09-09T16:35:57.406Z"
+}

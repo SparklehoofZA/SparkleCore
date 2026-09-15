@@ -1,0 +1,28 @@
+{
+  "manualOverrideFinishQuests": true,
+  "autoGenerateQuests": true,
+  "questDifficulty": "Adaptive",
+  "maxActiveQuests": 3,
+  "generationTriggerMode": "Automatic",
+  "generationCooldownTurns": 3,
+  "aiPushiness": "Moderate",
+  "autoAcceptanceThreshold": 40,
+  "dynamicObjectiveScaling": true,
+  "rewardMultipliers": {
+    "affinity": 1,
+    "trust": 1,
+    "bond": 1
+  },
+  "rewardTypes": {
+    "personalityTraits": true,
+    "loreBooks": true,
+    "sceneUnlocks": false,
+    "titleAccolades": false
+  },
+  "questFailureEngine": false,
+  "memoryContextDepth": 5,
+  "explicitObjectives": true,
+  "autoResolutionSensitivity": 4,
+  "enableAutomatedQuestNarrativeInjections": true,
+  "customPromptTemplate": "You are an underlying game logic engine for an interactive roleplay system. Your job is to analyze the character's current state and generate contextually relevant desires or tasks."
+}

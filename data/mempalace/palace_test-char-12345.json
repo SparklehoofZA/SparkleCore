@@ -1,0 +1,49 @@
+{
+  "personalityId": "test-char-12345",
+  "name": "Astrid Valen Memory Palace",
+  "wings": [
+    {
+      "id": "astronomy",
+      "name": "Astronomy Wing",
+      "rooms": [
+        "Observatory",
+        "Library"
+      ]
+    }
+  ],
+  "drawers": [
+    {
+      "id": "drawer-1",
+      "wing": "astronomy",
+      "room": "Observatory",
+      "hall": "facts",
+      "content": "User brought spare prisms for the astrolabe calibration.",
+      "entities": [
+        "prisms",
+        "astrolabe",
+        "Astrid"
+      ],
+      "importance": 8
+    }
+  ],
+  "entityGraph": [
+    {
+      "source": "Astrid",
+      "relation": "works with",
+      "target": "Astrolabe",
+      "timestamp": "2026-09-05T08:52:30.313Z",
+      "valid": true
+    }
+  ],
+  "stats": {
+    "totalDrawers": 1,
+    "hallCounts": {
+      "facts": 1,
+      "events": 0,
+      "discoveries": 0,
+      "preferences": 0
+    },
+    "totalEntities": 3,
+    "totalRecalls": 0
+  }
+}

@@ -1,0 +1,124 @@
+--- src/components/UserPersonaModal.tsx
++++ src/components/UserPersonaModal.tsx
+@@ -2,7 +2,7 @@
+ import { X, Save, UserCircle2, Sparkles, User, FileText, Check, Image as ImageIcon, Upload, Link as LinkIcon, Loader2 } from "lucide-react";
+ import { UserPersona } from "../types";
+ import { insertRoleplayMacro } from "../roleplayTemplate";
+ 
+ const PERSONA_PRESETS = [
+   { label: "Andrew (Retired Crusader)", url: "/api/images/andrew.jpg" },
+@@ -25,24 +25,35 @@
+ }: UserPersonaModalProps) {
++  const [personas, setPersonas] = useState<UserPersona[]>([]);
+   const [form, setForm] = useState<UserPersona>({
++    id: "",
+     name: "User",
+     avatar: "",
+     age: "",
+     appearance: "",
+     traits: "",
+     background: "",
+   });
+   const [isSaving, setIsSaving] = useState(false);
+   const [savedSuccess, setSavedSuccess] = useState(false);
+   const [isUploading, setIsUploading] = useState(false);
+   const [avatarTab, setAvatarTab] = useState<"upload" | "url" | "presets">("upload");
+   const fileInputRef = useRef<HTMLInputElement>(null);
+   const traitsRef = useRef<HTMLTextAreaElement>(null);
+   const backgroundRef = useRef<HTMLTextAreaElement>(null);
+ 
+   useEffect(() => {
+     if (isOpen) {
++      fetch("/api/user-personas")
++        .then(res => res.json())
++        .then(data => setPersonas(data || []))
++        .catch(err => console.error(err));
++
+       setForm({
++        id: userPersona?.id || "",
+         name: userPersona?.name || "User",
+         avatar: userPersona?.avatar || "",
+         age: userPersona?.age || "",
+@@ -95,7 +106,23 @@
+     if (!form.name.trim()) return;
+     setIsSaving(true);
+     try {
+-      await onSave(form);
++      const isNew = !form.id;
++      const personaToSave = { ...form, id: form.id || Date.now().toString() };
++      
++      let updatedPersonas = [...personas];
++      if (isNew) {
++        updatedPersonas.push(personaToSave);
++      } else {
++        updatedPersonas = updatedPersonas.map(p => p.id === personaToSave.id ? personaToSave : p);
++      }
++      
++      await fetch("/api/user-personas", {
++        method: "POST",
++        headers: { "Content-Type": "application/json" },
++        body: JSON.stringify(updatedPersonas)
++      });
++      setPersonas(updatedPersonas);
++      setForm(personaToSave);
++
++      await onSave(personaToSave);
+       setSavedSuccess(true);
+       setTimeout(() => {
+@@ -111,7 +138,7 @@
+   return (
+     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-in fade-in duration-150">
+-      <div className="bg-[#121216] border border-[#2E2E36] rounded-2xl w-full max-w-lg shadow-2xl overflow-hidden flex flex-col max-h-[90vh]">
++      <div className="bg-[#121216] border border-[#2E2E36] rounded-2xl w-full max-w-2xl shadow-2xl overflow-hidden flex flex-col max-h-[90vh]">
+         {/* Header */}
+         <div className="px-5 py-4 border-b border-[#24242C] flex items-center justify-between bg-[#15151A]">
+@@ -134,8 +161,54 @@
+ 
+         {/* Body Form */}
+-        <form onSubmit={handleSubmit} className="p-5 space-y-4 overflow-y-auto flex-1 text-xs">
++        <div className="flex flex-col md:flex-row overflow-hidden flex-1 min-h-[400px]">
++          {/* Sidebar for Personas */}
++          <div className="w-full md:w-48 bg-[#15151A] border-r border-[#24242C] flex flex-col">
++            <div className="p-3 border-b border-[#24242C]">
++              <button
++                onClick={() => setForm({ id: "", name: "New User", avatar: "", age: "", appearance: "", traits: "", background: "" })}
++                className="w-full flex items-center justify-center gap-1.5 py-1.5 bg-amber-500/10 text-amber-400 hover:bg-amber-500/20 border border-amber-500/30 rounded-lg text-xs font-semibold transition-colors"
++              >
++                <UserCircle2 size={14} />
++                New Persona
++              </button>
++            </div>
++            <div className="flex-1 overflow-y-auto p-2 space-y-1">
++              {personas.map(p => (
++                <button
++                  key={p.id}
++                  onClick={() => setForm(p)}
++                  className={`w-full flex items-center gap-2 p-2 rounded-lg text-left transition-colors ${form.id === p.id ? 'bg-amber-500/10 border border-amber-500/30' : 'hover:bg-[#202028] border border-transparent'}`}
++                >
++                  {p.avatar ? (
++                    <img src={p.avatar} alt={p.name} className="w-6 h-6 rounded-full object-cover" />
++                  ) : (
++                    <div className="w-6 h-6 rounded-full bg-[#202028] flex items-center justify-center">
++                      <User size={12} className="text-gray-400" />
++                    </div>
++                  )}
++                  <div className="truncate">
++                    <div className={`text-xs font-medium truncate ${form.id === p.id ? 'text-amber-300' : 'text-gray-200'}`}>{p.name}</div>
++                  </div>
++                </button>
++              ))}
++            </div>
++          </div>
++
++          {/* Form */}
++          <form onSubmit={handleSubmit} className="p-5 space-y-4 overflow-y-auto flex-1 text-xs">
+           {savedSuccess && (
+             <div className="p-2.5 rounded-lg bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 flex items-center gap-2 text-xs">
+@@ -357,6 +430,7 @@
+             </button>
+           </div>
+-        </form>
++          </form>
++        </div>
+       </div>
+     </div>

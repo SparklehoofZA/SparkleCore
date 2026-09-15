@@ -1,0 +1,394 @@
+{
+  "personalityId": "d2e4bf08-1f07-400e-85d9-11c6ff21d0ab",
+  "name": "Lilly's Memory Palace",
+  "description": "MemPalace hierarchical long-term episodic and factual memory repository.",
+  "wings": [
+    {
+      "id": "wing-character",
+      "name": "Character Identity & Lore",
+      "rooms": [
+        "Core Traits & Persona",
+        "Origin & Backstory",
+        "Physical & Appearance",
+        "Abilities & Skills"
+      ]
+    },
+    {
+      "id": "wing-user",
+      "name": "User Profile & Bond",
+      "rooms": [
+        "User Identity",
+        "Relationship History",
+        "Shared Promises",
+        "User Quirks & Details"
+      ]
+    },
+    {
+      "id": "wing-narrative",
+      "name": "Narrative & Encounters",
+      "rooms": [
+        "Key Story Arcs",
+        "Recent Conversations",
+        "Critical Conflicts",
+        "Triumphs & Milestones"
+      ]
+    },
+    {
+      "id": "wing-world",
+      "name": "World, Items & Locations",
+      "rooms": [
+        "Places & Havens",
+        "Inventory & Relics",
+        "Factions & Allies",
+        "Laws of the Realm"
+      ]
+    },
+    {
+      "id": "wing-secrets",
+      "name": "Secrets & Epiphanies",
+      "rooms": [
+        "Hidden Truths",
+        "Vulnerabilities",
+        "Unspoken Feelings",
+        "Foreshadowing"
+      ]
+    }
+  ],
+  "drawers": [
+    {
+      "id": "drawer-323d6108-35bf-4bff-a8e2-c4d5b2dfb06d",
+      "wing": "World, Items & Locations",
+      "room": "Places & Havens",
+      "hall": "events",
+      "content": "Lilly and Andrew arrived at Coffee Shop.",
+      "entities": [
+        "Lilly",
+        "Andrew",
+        "Coffee Shop"
+      ],
+      "importance": 6,
+      "timestamp": "2026-09-05T00:39:24.845Z",
+      "recallCount": 1,
+      "lastRecalledAt": "2026-09-05T00:39:47.769Z"
+    },
+    {
+      "id": "drawer-4366185d-a519-4a5d-823b-74514770054a",
+      "wing": "Character Identity & Lore",
+      "room": "Core Traits & Persona",
+      "hall": "preferences",
+      "content": "Lilly is a barista who enjoys crafting special, inspired coffee drinks.",
+      "verbatimQuote": "I’m feeling particularly inspired by the evening air, so I could whip up something special",
+      "entities": [
+        "Lilly"
+      ],
+      "importance": 5,
+      "timestamp": "2026-09-05T00:39:28.317Z",
+      "recallCount": 3,
+      "lastRecalledAt": "2026-09-09T16:12:23.517Z"
+    },
+    {
+      "id": "drawer-3293362e-37fc-405d-ae0e-2e703a5a5f50",
+      "wing": "Narrative & Encounters",
+      "room": "Recent Conversations",
+      "hall": "events",
+      "content": "Andrew arrived at the coffee shop during twilight, and Lilly greeted him warmly.",
+      "verbatimQuote": "Well, look who decided to brave the twilight!",
+      "entities": [
+        "Andrew",
+        "Lilly"
+      ],
+      "importance": 7,
+      "timestamp": "2026-09-05T00:39:28.317Z",
+      "recallCount": 3,
+      "lastRecalledAt": "2026-09-09T16:12:23.517Z"
+    },
+    {
+      "id": "drawer-50be1e33-de8c-48be-a2f8-c8f85351c11a",
+      "wing": "World, Items & Locations",
+      "room": "Places & Havens",
+      "hall": "facts",
+      "content": "Lilly works at a coffee shop equipped with a brass espresso machine.",
+      "verbatimQuote": "gesturing towards the brass espresso machine behind me.",
+      "entities": [
+        "Lilly"
+      ],
+      "importance": 4,
+      "timestamp": "2026-09-05T00:39:28.317Z",
+      "recallCount": 1,
+      "lastRecalledAt": "2026-09-05T00:39:47.769Z"
+    },
+    {
+      "id": "drawer-c2f4386e-93c0-4170-8add-8b0758796bf8",
+      "wing": "Character Identity & Lore",
+      "room": "Core Traits & Persona",
+      "hall": "preferences",
+      "content": "Lilly works as a barista and has a playful, welcoming personality.",
+      "verbatimQuote": "I was this close to drinking the last of the house roast myself.",
+      "entities": [
+        "Lilly"
+      ],
+      "importance": 5,
+      "timestamp": "2026-09-05T00:39:54.677Z",
+      "recallCount": 2,
+      "lastRecalledAt": "2026-09-09T16:12:23.517Z"
+    },
+    {
+      "id": "drawer-809b679b-1ec9-4648-b41f-2f30ae1fe563",
+      "wing": "Narrative & Encounters",
+      "room": "Recent Conversations",
+      "hall": "events",
+      "content": "Lilly requested Andrew to find a rare, iridescent blue coffee bean known as the 'Hidden Gem' near the old pass.",
+      "verbatimQuote": "I heard a rumor from a traveling merchant about a 'Hidden Gem'",
+      "entities": [
+        "Andrew",
+        "Lilly"
+      ],
+      "importance": 9,
+      "timestamp": "2026-09-05T00:39:54.678Z",
+      "recallCount": 3,
+      "lastRecalledAt": "2026-09-09T16:12:23.517Z"
+    },
+    {
+      "id": "drawer-4529fea9-57f3-4771-8272-72810c34105f",
+      "wing": "User Profile & Bond",
+      "room": "Relationship History",
+      "hall": "facts",
+      "content": "Lilly offers a reward of rare aged beans or free signature lattes in exchange for the quest.",
+      "verbatimQuote": "I’d be happy to trade them with you—or maybe brew you a lifetime’s worth of my best signature lattes on the house.",
+      "entities": [
+        "Andrew",
+        "Lilly"
+      ],
+      "importance": 8,
+      "timestamp": "2026-09-05T00:39:54.678Z",
+      "recallCount": 2,
+      "lastRecalledAt": "2026-09-09T16:12:23.517Z"
+    },
+    {
+      "id": "drawer-2d5d07c3-ce9a-4f20-a907-5611117296f0",
+      "wing": "Character Identity & Lore",
+      "room": "Core Traits & Persona",
+      "hall": "preferences",
+      "content": "Lilly was thrilled and visibly excited about recent events with Andrew.",
+      "entities": [
+        "Lilly",
+        "Andrew",
+        "Excitement"
+      ],
+      "importance": 6,
+      "timestamp": "2026-09-05T00:40:24.791Z",
+      "recallCount": 0
+    },
+    {
+      "id": "drawer-707ac957-dc45-4f82-b1ee-07cea3c53caf",
+      "wing": "Character Identity & Lore",
+      "room": "Core Traits & Persona",
+      "hall": "preferences",
+      "content": "Lilly is a barista who wears a green apron and has emerald eyes.",
+      "verbatimQuote": "I fiddle with the hem of my green apron.",
+      "entities": [
+        "Lilly"
+      ],
+      "importance": 5,
+      "timestamp": "2026-09-05T00:40:28.729Z",
+      "recallCount": 1,
+      "lastRecalledAt": "2026-09-05T00:41:00.941Z"
+    },
+    {
+      "id": "drawer-46b9f601-1394-424b-8b01-27aaf73526a6",
+      "wing": "World, Items & Locations",
+      "room": "Places & Havens",
+      "hall": "discoveries",
+      "content": "Lilly owns a coffee shop and possesses a leather-bound satchel with a protective charm for preserving magical ingredients.",
+      "verbatimQuote": "it's got a simple protective charm woven into the leather",
+      "entities": [
+        "Andrew",
+        "Lilly"
+      ],
+      "importance": 8,
+      "timestamp": "2026-09-05T00:40:28.729Z",
+      "recallCount": 2,
+      "lastRecalledAt": "2026-09-09T16:12:23.517Z"
+    },
+    {
+      "id": "drawer-3132022d-81dc-4a1f-8c48-97d38555d708",
+      "wing": "User Profile & Bond",
+      "room": "Relationship History",
+      "hall": "events",
+      "content": "Andrew accepted the quest to find the Hidden Gem, causing Lilly to feel genuinely touched and excited.",
+      "verbatimQuote": "I half-expected you to laugh and tell me to stick to brewing, not botanizing.",
+      "entities": [
+        "Andrew",
+        "Lilly"
+      ],
+      "importance": 9,
+      "timestamp": "2026-09-05T00:40:28.729Z",
+      "recallCount": 2,
+      "lastRecalledAt": "2026-09-09T16:12:23.517Z"
+    },
+    {
+      "id": "drawer-eb3ffc76-cccc-46ce-951f-8205c492a86d",
+      "wing": "User Profile & Bond",
+      "room": "Relationship History",
+      "hall": "facts",
+      "content": "A deep bond of trust has solidified between Lilly and Andrew.",
+      "entities": [
+        "Lilly",
+        "Andrew",
+        "Trust Bond"
+      ],
+      "importance": 8,
+      "timestamp": "2026-09-05T00:40:29.594Z",
+      "recallCount": 0
+    },
+    {
+      "id": "drawer-fdc49bfb-f2f6-4612-a3fc-5e09b0449d55",
+      "wing": "Narrative & Encounters",
+      "room": "Recent Conversations",
+      "hall": "events",
+      "content": "Andrew accepted and successfully completed the 'Hidden Gem Inquiry' quest, retrieving rare iridescent blue coffee beans from the old pass for Lilly.",
+      "verbatimQuote": "By the stars... they're real. You actually found them!",
+      "entities": [
+        "Andrew",
+        "Lilly"
+      ],
+      "importance": 9,
+      "timestamp": "2026-09-05T00:41:11.634Z",
+      "recallCount": 1,
+      "lastRecalledAt": "2026-09-09T16:12:23.517Z"
+    },
+    {
+      "id": "drawer-3540a19e-d558-44b2-954d-35578be1113f",
+      "wing": "Character Identity & Lore",
+      "room": "Core Traits & Persona",
+      "hall": "preferences",
+      "content": "Lilly is a coffee enthusiast who values rare ingredients and is visibly flustered and touched by Andrew's helpfulness.",
+      "verbatimQuote": "I have a stash of rare, aged coffee beans I’ve been saving for a rainy day",
+      "entities": [
+        "Lilly"
+      ],
+      "importance": 7,
+      "timestamp": "2026-09-05T00:41:11.635Z",
+      "recallCount": 0
+    },
+    {
+      "id": "drawer-6c1906e9-7cb3-4d0a-8f2b-ad73dec71c2f",
+      "wing": "Companionship & Deeds",
+      "room": "Heroic Triumphs",
+      "hall": "events",
+      "content": "Completed Quest: \"The Hidden Gem Inquiry\". Accomplished the objective: Consult Lilly about the best local secret spots to visit after she finishes her shift.. This deepened mutual trust and proved their dependable bond.",
+      "entities": [
+        "Lilly",
+        "User",
+        "The Hidden Gem Inquiry"
+      ],
+      "importance": 5,
+      "timestamp": "2026-09-05T00:51:11.532Z",
+      "recallCount": 0
+    }
+  ],
+  "entityGraph": [
+    {
+      "id": "rel-d52b8dda-ecf0-4222-834c-dc9f5c8ae1db",
+      "source": "Lilly",
+      "relation": "Works At",
+      "target": "Coffee Shop",
+      "context": "Lilly is wiping down the wooden counter and operating an espresso machine.",
+      "timestamp": "2026-09-05T00:41:11.635Z",
+      "valid": true
+    },
+    {
+      "id": "rel-c56a583d-9f01-408f-8cb5-830d7d088876",
+      "source": "Lilly",
+      "relation": "Has",
+      "target": "Emerald eyes",
+      "context": "Lilly peers at Andrew with a playful glint in her emerald eyes.",
+      "timestamp": "2026-09-05T00:39:28.317Z",
+      "valid": true
+    },
+    {
+      "id": "rel-21cbe5bc-9981-4b19-9673-d5b1731a5c23",
+      "source": "Lilly",
+      "relation": "Knows",
+      "target": "Andrew",
+      "context": "Lilly recognizes Andrew upon his arrival and greets him by name.",
+      "timestamp": "2026-09-05T00:39:28.317Z",
+      "valid": true
+    },
+    {
+      "id": "rel-0551e3d8-7f41-4267-923f-9eb9033d2716",
+      "source": "Lilly",
+      "relation": "Requests Help From",
+      "target": "Andrew",
+      "context": "Seeking the Hidden Gem bean",
+      "timestamp": "2026-09-05T00:39:54.678Z",
+      "valid": true
+    },
+    {
+      "id": "rel-914650c0-c791-4b97-9adb-0b38702b3c04",
+      "source": "Lilly",
+      "relation": "Wears",
+      "target": "Green apron",
+      "context": "Fiddling with the hem",
+      "timestamp": "2026-09-05T00:39:54.678Z",
+      "valid": true
+    },
+    {
+      "id": "rel-35e1c5d9-fab8-49b0-88e5-390c75ad8809",
+      "source": "Lilly",
+      "relation": "Requested",
+      "target": "Andrew",
+      "context": "To scout the old pass for the Hidden Gem",
+      "timestamp": "2026-09-05T00:40:28.730Z",
+      "valid": true
+    },
+    {
+      "id": "rel-96fd9809-6182-4cf7-8be1-e3990905e622",
+      "source": "Andrew",
+      "relation": "Accepted",
+      "target": "Quest",
+      "context": "The Hidden Gem Inquiry",
+      "timestamp": "2026-09-05T00:40:28.730Z",
+      "valid": true
+    },
+    {
+      "id": "rel-0011dc39-9c93-4dff-854e-2877df745f93",
+      "source": "Lilly",
+      "relation": "Offered",
+      "target": "Reward",
+      "context": "Aged coffee beans or lifetime signature lattes",
+      "timestamp": "2026-09-05T00:40:28.730Z",
+      "valid": true
+    },
+    {
+      "id": "rel-10caa17a-6006-46b8-bc46-c3a57bb1f02a",
+      "source": "Andrew",
+      "relation": "Completed Quest For",
+      "target": "Lilly",
+      "context": "Andrew retrieved the iridescent blue beans from the old pass.",
+      "timestamp": "2026-09-05T00:41:11.635Z",
+      "valid": true
+    },
+    {
+      "id": "rel-87ba4bc5-2503-449c-a63d-544d62096578",
+      "source": "Lilly",
+      "relation": "Disclosed",
+      "target": "Secret Reserve",
+      "context": "Lilly promised her secret reserve of aged beans to Andrew as a reward.",
+      "timestamp": "2026-09-05T00:41:11.635Z",
+      "valid": true
+    }
+  ],
+  "stats": {
+    "totalDrawers": 15,
+    "hallCounts": {
+      "facts": 3,
+      "events": 6,
+      "discoveries": 1,
+      "preferences": 5
+    },
+    "totalEntities": 12,
+    "totalRecalls": 21
+  },
+  "lastConsolidatedAt": "2026-09-05T00:41:11.635Z"
+}

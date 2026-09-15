@@ -1,0 +1,70 @@
+{
+  "personalityId": "drawers",
+  "name": "Central Memory Palace",
+  "description": "MemPalace hierarchical long-term episodic and factual memory repository.",
+  "wings": [
+    {
+      "id": "wing-character",
+      "name": "Character Identity & Lore",
+      "rooms": [
+        "Core Traits & Persona",
+        "Origin & Backstory",
+        "Physical & Appearance",
+        "Abilities & Skills"
+      ]
+    },
+    {
+      "id": "wing-user",
+      "name": "User Profile & Bond",
+      "rooms": [
+        "User Identity",
+        "Relationship History",
+        "Shared Promises",
+        "User Quirks & Details"
+      ]
+    },
+    {
+      "id": "wing-narrative",
+      "name": "Narrative & Encounters",
+      "rooms": [
+        "Key Story Arcs",
+        "Recent Conversations",
+        "Critical Conflicts",
+        "Triumphs & Milestones"
+      ]
+    },
+    {
+      "id": "wing-world",
+      "name": "World, Items & Locations",
+      "rooms": [
+        "Places & Havens",
+        "Inventory & Relics",
+        "Factions & Allies",
+        "Laws of the Realm"
+      ]
+    },
+    {
+      "id": "wing-secrets",
+      "name": "Secrets & Epiphanies",
+      "rooms": [
+        "Hidden Truths",
+        "Vulnerabilities",
+        "Unspoken Feelings",
+        "Foreshadowing"
+      ]
+    }
+  ],
+  "drawers": [],
+  "entityGraph": [],
+  "stats": {
+    "totalDrawers": 0,
+    "hallCounts": {
+      "facts": 0,
+      "events": 0,
+      "discoveries": 0,
+      "preferences": 0
+    },
+    "totalEntities": 0,
+    "totalRecalls": 0
+  }
+}

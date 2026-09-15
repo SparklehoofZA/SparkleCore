@@ -1,0 +1,22 @@
+[
+  {
+    "role": "user",
+    "parts": [
+      {
+        "text": "hello there"
+      }
+    ]
+  },
+  {
+    "role": "model",
+    "parts": [
+      {
+        "text": "\n\"Ah, Andrew! *smiles warmly* I've been expecting you. Come in, come in. Let me just get my apron on. *rubs at a spot behind her ear and pulls it out from under the counter* How are you holding up after your long journey?\"\n\n*(Lilly moves to the counter where she was wiping down the wooden surface, now turning to face Andrew more fully as she puts the apron on. She adjusts the hem of the apron with a gentle gesture.)*\n\nI heard you were looking for something special—something rare and exotic? *Lilly's eyes twinkle playfully* I might just have just the thing..."
+      }
+    ],
+    "variations": [
+      "\n\"Ah, Andrew! *smiles warmly* I've been expecting you. Come in, come in. Let me just get my apron on. *rubs at a spot behind her ear and pulls it out from under the counter* How are you holding up after your long journey?\"\n\n*(Lilly moves to the counter where she was wiping down the wooden surface, now turning to face Andrew more fully as she puts the apron on. She adjusts the hem of the apron with a gentle gesture.)*\n\nI heard you were looking for something special—something rare and exotic? *Lilly's eyes twinkle playfully* I might just have just the thing..."
+    ],
+    "activeVariationIndex": 0
+  }
+]

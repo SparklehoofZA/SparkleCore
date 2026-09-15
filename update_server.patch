@@ -1,0 +1,38 @@
+--- server.ts
++++ server.ts
+@@ -1396,7 +1396,7 @@
+ 
+ app.put("/api/personalities/:id", async (req, res) => {
+   const { id } = req.params;
+-  const { name, personality, traits, scenario, scenarioId, appearance, age, systemInstruction, description, avatar, state, customBackgroundUrl, customBackgroundOpacity } = req.body;
++  const { name, personality, traits, scenario, scenarioId, appearance, age, gender, orientation, systemInstruction, description, avatar, state, customBackgroundUrl, customBackgroundOpacity } = req.body;
+   if (!name || !name.trim()) {
+     return res.status(400).json({ error: "Name is required" });
+   }
+@@ -1417,6 +1417,8 @@
+     scenarioId: (scenarioId || "").trim(),
+     appearance: (appearance || "").trim(),
+     age: (age || "").trim(),
++    gender: (gender || "").trim(),
++    orientation: (orientation || "").trim(),
+     systemInstruction: (systemInstruction || "").trim(),
+     description: (description || "").trim(),
+     avatar: avatar !== undefined ? (avatar || "").trim() : personalities[index].avatar,
+@@ -1429,7 +1431,7 @@
+ });
+ 
+ app.post("/api/personalities", async (req, res) => {
+-  const { name, personality, traits, scenario, scenarioId, appearance, age, systemInstruction, description, avatar, state, customBackgroundUrl, customBackgroundOpacity } = req.body;
++  const { name, personality, traits, scenario, scenarioId, appearance, age, gender, orientation, systemInstruction, description, avatar, state, customBackgroundUrl, customBackgroundOpacity } = req.body;
+   if (!name || !name.trim()) {
+     return res.status(400).json({ error: "Name is required" });
+   }
+@@ -1443,6 +1445,8 @@
+     scenarioId: (scenarioId || "").trim(),
+     appearance: (appearance || "").trim(),
+     age: (age || "").trim(),
++    gender: (gender || "").trim(),
++    orientation: (orientation || "").trim(),
+     systemInstruction: (systemInstruction || "").trim(),
+     description: (description || "").trim(),
+     avatar: (avatar || "").trim(),

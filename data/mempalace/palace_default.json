@@ -1,0 +1,134 @@
+{
+  "personalityId": "default",
+  "name": "Central Memory Palace",
+  "description": "MemPalace hierarchical long-term episodic and factual memory repository.",
+  "wings": [
+    {
+      "id": "wing-character",
+      "name": "Character Identity & Lore",
+      "rooms": [
+        "Core Traits & Persona",
+        "Origin & Backstory",
+        "Physical & Appearance",
+        "Abilities & Skills"
+      ]
+    },
+    {
+      "id": "wing-user",
+      "name": "User Profile & Bond",
+      "rooms": [
+        "User Identity",
+        "Relationship History",
+        "Shared Promises",
+        "User Quirks & Details"
+      ]
+    },
+    {
+      "id": "wing-narrative",
+      "name": "Narrative & Encounters",
+      "rooms": [
+        "Key Story Arcs",
+        "Recent Conversations",
+        "Critical Conflicts",
+        "Triumphs & Milestones"
+      ]
+    },
+    {
+      "id": "wing-world",
+      "name": "World, Items & Locations",
+      "rooms": [
+        "Places & Havens",
+        "Inventory & Relics",
+        "Factions & Allies",
+        "Laws of the Realm"
+      ]
+    },
+    {
+      "id": "wing-secrets",
+      "name": "Secrets & Epiphanies",
+      "rooms": [
+        "Hidden Truths",
+        "Vulnerabilities",
+        "Unspoken Feelings",
+        "Foreshadowing"
+      ]
+    }
+  ],
+  "drawers": [
+    {
+      "id": "drawer-6220e41b-1bb3-431f-968f-a19e1a0e3677",
+      "wing": "World, Items & Locations",
+      "room": "Core Traits (Relationship)",
+      "hall": "events",
+      "content": "Met at the [Conference Name] where Andrew demonstrated data visualization passion",
+      "verbatimQuote": "\"It means a lot to me to know it's meaningful to someone like you.\"",
+      "entities": [
+        "Andrew",
+        "Character"
+      ],
+      "importance": 8,
+      "timestamp": "2026-09-09T16:12:28.464Z",
+      "recallCount": 0
+    },
+    {
+      "id": "drawer-195f91d9-db30-4f26-9429-6e2cc7518cb6",
+      "wing": "User Profile & Bond",
+      "room": "Origin & Backstory (Shared Interest)",
+      "hall": "preferences",
+      "content": "Prefers discussing meaningful aspects of work and personal interests",
+      "entities": [
+        "Andrew",
+        "Character"
+      ],
+      "importance": 7,
+      "timestamp": "2026-09-09T16:12:28.465Z",
+      "recallCount": 0
+    },
+    {
+      "id": "drawer-b764331a-da8b-4177-9ae9-381177a254a6",
+      "wing": "Recent Conversations",
+      "room": "Recent Conversations",
+      "hall": "events",
+      "content": "\"Hello, Andrew. I've been doing well... Do you still find that aspect of my work as intriguing as I do?\"",
+      "entities": [
+        "Andrew",
+        "Character"
+      ],
+      "importance": 6,
+      "timestamp": "2026-09-09T16:12:28.465Z",
+      "recallCount": 0
+    }
+  ],
+  "entityGraph": [
+    {
+      "id": "rel-767e09cc-3eff-459c-a5a8-97bf94388fea",
+      "source": "Character",
+      "relation": "Disclosed",
+      "target": "Shared Interest in Data Visualization",
+      "context": "\"Do you still find that aspect of my work as intriguing as I do?\"",
+      "timestamp": "2026-09-09T16:12:28.465Z",
+      "valid": true
+    },
+    {
+      "id": "rel-ff4afffc-d80b-4796-8802-17513b78d694",
+      "source": "Andrew",
+      "relation": "Showed Passion for Data Visualization",
+      "target": "Data Visualization Skills",
+      "context": "\"I remember when we first met at the conference a few years ago, and you showed me your passion for data visualization.\"",
+      "timestamp": "2026-09-09T16:12:28.465Z",
+      "valid": true
+    }
+  ],
+  "stats": {
+    "totalDrawers": 3,
+    "hallCounts": {
+      "facts": 0,
+      "events": 2,
+      "discoveries": 0,
+      "preferences": 1
+    },
+    "totalEntities": 4,
+    "totalRecalls": 0
+  },
+  "lastConsolidatedAt": "2026-09-09T16:12:28.465Z"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "SparkleCore",
+  "description": "Immersive character roleplay with narrative quests, MemPalace Method of Loci memory architecture, and dynamic character states.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "role": "user",
+    "parts": [
+      {
+        "text": "hello"
+      }
+    ]
+  },
+  {
+    "role": "model",
+    "parts": [
+      {
+        "text": "\n\"Hello, Andrew. I've been doing well, thank you for asking. It's so good to finally catch up after everything that's been going on.\" *sits back down into the chair, leaning forward slightly with an eager expression* \"I remember when we first met at that conference a few years ago, and you showed me your passion for data visualization. Do you still find that aspect of my work as intriguing as I do? It means a lot to me to know it's meaningful to someone like you.\""
+      }
+    ],
+    "variations": [
+      "\n\"Hello, Andrew. I've been doing well, thank you for asking. It's so good to finally catch up after everything that's been going on.\" *sits back down into the chair, leaning forward slightly with an eager expression* \"I remember when we first met at that conference a few years ago, and you showed me your passion for data visualization. Do you still find that aspect of my work as intriguing as I do? It means a lot to me to know it's meaningful to someone like you.\""
+    ],
+    "activeVariationIndex": 0
+  }
+]

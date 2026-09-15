@@ -1,0 +1,102 @@
+[
+  {
+    "quest_id": "quest_fallback_1788595275034_1",
+    "title": "Calming the Scene with Lilly",
+    "description": "Assist Lilly with handling the immediate tensions at Brewed Connections: The user has arrived at the coffee shop looking for a quiet moment to solve a riddle left behind by an unknown client. However, the café is bustling with patrons discussing art exhibitions nearby. The atmosphere is lively yet inviting, offering plenty of opportunities for chance encounters..",
+    "character_motivation": "Needs a trustworthy ally to ground their emotions and share the burden.",
+    "difficulty": "Easy",
+    "trigger_prompt": "Ask Lilly about what's pressing most heavily on their mind right now and offer your steady support.",
+    "rewards": {
+      "relationship_metrics": {
+        "affinity": 10,
+        "trust": 8,
+        "harmonic_bond": 6
+      },
+      "items": [
+        {
+          "item_name": "Token of Lilly's Gratitude",
+          "item_description": "A warm token carried as a reminder of mutual support during troubled moments."
+        }
+      ]
+    },
+    "status": "available",
+    "characterId": "d2e4bf08-1f07-400e-85d9-11c6ff21d0ab",
+    "characterName": "Lilly",
+    "createdAt": "2026-09-05T08:01:15.034Z"
+  },
+  {
+    "quest_id": "quest_fallback_1788595275034_2",
+    "title": "Investigate the Disturbance",
+    "description": "Scout around Brewed Connections: The user has arrived at the coffee shop looking for a quiet moment to solve a riddle left behind by an unknown client. However, the café is bustling with patrons discussing art exhibitions nearby. The atmosphere is lively yet inviting, offering plenty of opportunities for chance encounters. to ensure no lingering threats or intrusions remain undetected.",
+    "character_motivation": "Current vitals and alert status urge caution before lowering their guard.",
+    "difficulty": "Medium",
+    "trigger_prompt": "Check in with Lilly regarding the surrounding security and suggest a swift patrol together.",
+    "rewards": {
+      "relationship_metrics": {
+        "affinity": 15,
+        "trust": 16,
+        "harmonic_bond": 12
+      },
+      "items": [
+        {
+          "item_name": "Gilded Scouting Compass",
+          "item_description": "An ornate pocket compass with an amber needle that never loses true orientation."
+        }
+      ]
+    },
+    "status": "available",
+    "characterId": "d2e4bf08-1f07-400e-85d9-11c6ff21d0ab",
+    "characterName": "Lilly",
+    "createdAt": "2026-09-05T08:01:15.034Z"
+  },
+  {
+    "quest_id": "quest_fallback_1788565040986_1",
+    "title": "Calming the Scene with Aria Vance",
+    "description": "Assist Aria Vance with handling the immediate tensions at Grand Archives - Dust-mote sunlit study.",
+    "character_motivation": "Needs a trustworthy ally to ground their emotions and share the burden.",
+    "difficulty": "Easy",
+    "trigger_prompt": "Ask Aria Vance about what's pressing most heavily on their mind right now and offer your steady support.",
+    "rewards": {
+      "relationship_metrics": {
+        "affinity": 10,
+        "trust": 8,
+        "harmonic_bond": 6
+      },
+      "items": [
+        {
+          "item_name": "Token of Aria Vance's Gratitude",
+          "item_description": "A warm token carried as a reminder of mutual support during troubled moments."
+        }
+      ]
+    },
+    "status": "completed",
+    "characterName": "Aria Vance",
+    "createdAt": "2026-09-04T23:37:20.986Z",
+    "completedAt": "2026-09-04T23:37:25.692Z"
+  },
+  {
+    "quest_id": "quest_fallback_1788565040986_2",
+    "title": "Investigate the Disturbance",
+    "description": "Scout around Grand Archives - Dust-mote sunlit study to ensure no lingering threats or intrusions remain undetected.",
+    "character_motivation": "Current vitals and alert status urge caution before lowering their guard.",
+    "difficulty": "Medium",
+    "trigger_prompt": "Check in with Aria Vance regarding the surrounding security and suggest a swift patrol together.",
+    "rewards": {
+      "relationship_metrics": {
+        "affinity": 15,
+        "trust": 16,
+        "harmonic_bond": 12
+      },
+      "items": [
+        {
+          "item_name": "Gilded Scouting Compass",
+          "item_description": "An ornate pocket compass with an amber needle that never loses true orientation."
+        }
+      ]
+    },
+    "status": "completed",
+    "characterName": "Aria Vance",
+    "createdAt": "2026-09-04T23:37:20.986Z",
+    "completedAt": "2026-09-04T23:48:06.609Z"
+  }
+]

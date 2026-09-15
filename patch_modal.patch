@@ -1,0 +1,38 @@
+--- src/components/PersonalityModal.tsx
++++ src/components/PersonalityModal.tsx
+@@ -35,6 +35,8 @@
+   const [chatbotPersonality, setChatbotPersonality] = useState("");
+   const [appearance, setAppearance] = useState("");
+   const [age, setAge] = useState("");
++  const [gender, setGender] = useState("");
++  const [orientation, setOrientation] = useState("");
+   const [firstMessage, setFirstMessage] = useState("");
+   const [systemInstruction, setSystemInstruction] = useState("");
+   const [description, setDescription] = useState("");
+@@ -79,6 +81,8 @@
+       setChatbotPersonality(personality.personality || personality.traits || "");
+       setAppearance(personality.appearance || "");
+       setAge(personality.age || "");
++      setGender(personality.gender || "");
++      setOrientation(personality.orientation || "");
+       setFirstMessage(personality.firstMessage || "");
+       setSystemInstruction(personality.systemInstruction || "");
+       setDescription(personality.description || "");
+@@ -100,6 +104,8 @@
+       setChatbotPersonality("");
+       setAppearance("");
+       setAge("");
++      setGender("");
++      setOrientation("");
+       setFirstMessage("");
+       setSystemInstruction("");
+       setDescription("");
+@@ -224,6 +230,8 @@
+         traits: chatbotPersonality.trim(), // sync for backwards compatibility
+         appearance: appearance.trim(),
+         age: age.trim(),
++        gender: gender.trim(),
++        orientation: orientation.trim(),
+         firstMessage: firstMessage.trim(),
+         systemInstruction: systemInstruction.trim(),
+         description: description.trim(),

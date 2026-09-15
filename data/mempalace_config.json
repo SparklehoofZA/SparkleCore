@@ -1,0 +1,11 @@
+{
+  "autoConsolidateMode": "auto",
+  "messageThreshold": 6,
+  "dialogueHistoryDepth": 25,
+  "autoConsolidateDelayMs": 2500,
+  "autoDeduplicate": true,
+  "minMessageLength": 15,
+  "importanceThreshold": 1,
+  "enableQuoteExtraction": true,
+  "model": ""
+}

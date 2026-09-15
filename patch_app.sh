@@ -1,0 +1,1 @@
+sed -i -e '/const \[personalities/i \  const [questConfig, setQuestConfig] = useState<any>(null);\n' -e '/\/\/ Initial fetch of scenarios, personalities/a \    fetch("/api/questing-system/config").then(res => res.json()).then(data => setQuestConfig(data)).catch(() => {});\n' src/App.tsx
