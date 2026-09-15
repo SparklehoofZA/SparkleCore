@@ -5,6 +5,7 @@ SparkleCore is a local-first neural roleplay studio uniting state-of-the-art LLM
 This project was created as a personal solution to a frustrating problem: online chatbots that constantly suffer from memory amnesia and charge expensive monthly fees. SparkleCore was built as a completely free, offline-first alternative designed to never forget you or your adventures.
 
 
+
 ```text
 # SparkleCore
 
@@ -17,7 +18,10 @@ This project was created as a personal solution to a frustrating problem: online
 > Check the Sponsor this project button on the right hand side or the top red heart  
 ```
 ---
+<img width="1895" height="920" alt="image" src="https://github.com/user-attachments/assets/6a138c55-2e96-45d1-99b8-1cd59ec2897b" />
 
+
+-------------------------
 ## Quickstart
 
 Follow these steps to run SparkleCore locally:
