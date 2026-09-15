@@ -14,7 +14,7 @@ This project was created as a personal solution to a frustrating problem: online
 ```text
 # To help support
 
-> Check the paypal donate button on the right hand side  
+> Check the Sponsor this project button on the right hand side or the top red heart  
 ```
 ---
 
