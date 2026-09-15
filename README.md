@@ -68,6 +68,8 @@ Open [http://127.0.0.1:3000/](https://www.google.com/search?q=http://127.0.0.1:3
 ---
 
 <img width="1492" height="1993" alt="image" src="https://github.com/user-attachments/assets/81b82b28-6939-4e88-ab46-ea068c0ade72" />
+<img width="1509" height="795" alt="image" src="https://github.com/user-attachments/assets/12610977-1dff-4c3f-9e0e-7d78f7ca6cfd" />
+
 
 
 ## Core Features
