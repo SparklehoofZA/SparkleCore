@@ -1,6 +1,6 @@
 # SparkleCore
 
-Note I am not a hard core programmer, i am just a extreamly peed off rtole play enjoyer that wanted a solution that works for what i like to do.
+Note I am not a hard core programmer, i am just a extreamly peed off role play enjoyer that wanted a solution that works for what i like to do.
 
 This project was created as a personal solution to a frustrating problem: online chatbots that constantly suffer from memory amnesia and charge expensive monthly fees. SparkleCore was built as a completely free, offline-first alternative designed to never forget you or your adventures.
 
