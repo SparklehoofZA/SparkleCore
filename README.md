@@ -24,12 +24,20 @@ This project was created as a personal solution to a frustrating problem: online
 -------------------------
 ## Quickstart
 
+
 Follow these steps to run SparkleCore locally:
+
 
 1. **Clone or download** the repository:
    ```bash
    git clone [https://github.com/GoatymcGoatFace/SparkleCore.git](https://github.com/GoatymcGoatFace/SparkleCore.git)
    cd SparkleCore
+   or
+   Top right Green code button,
+   click and select download ZIP,
+   extract the zip file and open the folder,
+   right click inside the folder and select open terminal,
+   open konsole or open console
 
 
 
