@@ -42,6 +42,11 @@ winget install OpenJS.NodeJS.LTS --accept-source-agreements --accept-package-agr
 ```
 to verify Restart your terminal after installation and verify with node -v and npm -v.
 
+to fix a script permission error when trying to install nodejs try the following
+```bash
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
 <img width="273" height="120" alt="image" src="https://github.com/user-attachments/assets/fdb16d79-31a2-4f57-9599-929b878050bb" />
 
 
