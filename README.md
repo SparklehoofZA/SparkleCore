@@ -33,6 +33,33 @@ SparkleCore is a local-first neural roleplay studio uniting LLM inference with c
 
 Follow these steps to run SparkleCore locally:
 
+Note
+### Prerequisites (Windows)
+Node.js and npm are required. If you don't have them installed, open **PowerShell as Administrator** and run:
+
+```bash
+winget install OpenJS.NodeJS.LTS --accept-source-agreements --accept-package-agreements
+```
+to verify Restart your terminal after installation and verify with node -v and npm -v.
+
+### Prerequisites (Linux)
+Node.js and npm are required. Install them using your distribution's package manager:
+
+-Arch / CachyOS / Manjaro
+```bash
+sudo pacman -S nodejs npm
+```
+Debian / Ubuntu / Linux Mint
+```bash
+sudo apt update && sudo apt install -y nodejs npm
+```
+Fedora / RHEL
+```bash
+sudo dnf install -y nodejs npm
+```
+Note: After installation, verify the setup by running node -v and npm -v in your terminal.
+
+-------------------------
 
 1. **Clone or download** the repository:
    ```bash
