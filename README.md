@@ -26,6 +26,13 @@ SparkleCore is a local-first neural roleplay studio uniting LLM inference with c
 ---
 <img width="1895" height="920" alt="image" src="https://github.com/user-attachments/assets/6a138c55-2e96-45d1-99b8-1cd59ec2897b" />
 
+-------------------------
+
+## Currently being worked on - RPG mode, for a more interactive chat session, To be compelte before end September 2026
+
+<img width="1622" height="844" alt="image" src="https://github.com/user-attachments/assets/af535775-23e2-408f-9c87-353e9fb4e9bf" />
+
+
 
 -------------------------
 ## Quickstart
